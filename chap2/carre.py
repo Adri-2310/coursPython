@@ -1,6 +1,11 @@
-""" Écrivez un algorithme qui demande un nombre à l’utilisateur, puis qui calcule le carré de
+"""Écrivez un algorithme qui demande un nombre à l’utilisateur, puis qui calcule le carré de
 ce nombre.
- """
+"""
 
-answer = input("Veuillez entré un nombre qui sera calculé au carré : ")
-print(f"le carré de {answer} est : {int(answer)**2}")
+"""
+__author__ = Adrien Mertens
+__version__= 0.1.0
+"""
+
+answer = int(input("Veuillez entré un nombre qui sera calculé au carré : "))
+print(f"le carré de {answer} est : {answer ** 2}")
