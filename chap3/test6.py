@@ -6,7 +6,7 @@ __author__ = "Mertens Adrien"
 __version__ = "1.0"
 """
 
-#assign and input
+# assign and input
 number = int(input("Entrer un nombre entier : "))
 
 # check if number is divisible by 3

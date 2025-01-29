@@ -4,7 +4,8 @@
 __author__= "Mertens Adrien"
 __version__ = "1.0"
 """
-#assign and input
+
+# assign and input
 number = int(input("Veuillez entrez un nombre entier : "))
 
 # check if number is sup 50

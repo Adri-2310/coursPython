@@ -9,4 +9,4 @@ __version__ = "1.0"
 number = int(input("Entrer un nombre entre 10 et 100: "))
 
 # check if number is in 10 and 100
-print(f"est ce que le nombre est entre 10 et 100: {number>10 and number<100}")
+print(f"est ce que le nombre est entre 10 et 100: {number > 10 and number < 100}")

@@ -5,8 +5,11 @@
 __author__ = "Mertens Adrien"
 __version__ = "1.0"
 """
-#assign and input
+
+# assign and input
 number = int(input("Veuillez un nombre entier : "))
 
 # check is number is impair or divisible by 5
-print(f"est ce que le nombre ({number}) est impair ou divisible par 5 ? {number % 5 == 0 or number % 2 == 1}")
+print(
+    f"est ce que le nombre ({number}) est impair ou divisible par 5 ? {number % 5 == 0 or number % 2 == 1}"
+)
