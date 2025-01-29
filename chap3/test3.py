@@ -7,5 +7,5 @@ __version__ = "1.0"
 #assign and input
 number = int(input("Veuillez entrez un nombre entier : "))
 
-# check if number is little 50
+# check if number is inferior 50
 print(f"est ce que le nombre ({number}) est plus petit que 50 : {number < 50}")
