@@ -1,26 +1,19 @@
 """
-Écrivez un algorithme qui lit le nom d’un article, son prix hors taxe, le nombre d’articles
-et le taux de TVA, puis qui fournit le prix total TTC correspondant. Faites en sorte que
-l’algorithme pose des questions claires et affiche un résultat complet.
-
 __author__ = "Adrien Mertens"
 __version__ = "0.1.0"
+
 """
 
-# Assignation et affectation
-nameItem = str(input("Le nom de l'article : "))
-prixHtva = float(input("Le prix HTVA (le prix sans le signe euro €) : "))
-quantity = int(input("Le nombre d'articles (en un chiffre entier) : "))
-tauxTVA = int(
-    input(
-        "Le taux de TVA (sans le % et le nombre entier uniquement donc 21 pour 21%) : "
-    )
-)
+# Assignment and input
+nameItem = str(input("The name of the item: "))
+priceExclTax = float(input("The price excluding tax (without the euro sign €): "))
+quantity = int(input("The number of items (as an integer): "))
+vatRate = int(input("The VAT rate (as an integer, e.g., 21 for 21%): "))
 
-# Calculer la somme totale de TVA
-valeurTVA = (prixHtva * quantity * tauxTVA) / 100
+# Calculate the total VAT amount
+vatAmount = (priceExclTax * quantity * vatRate) / 100
 
-# Afficher le résultat complet avec toutes les données
+# Display the complete result with all data
 print(
-    f"L'article : {nameItem} qui a un prix HTVA de {prixHtva} €, avec une quantité de {quantity} et un taux de TVA de {tauxTVA}%. Le prix TVAC est de {(prixHtva * quantity) + valeurTVA} €."
+    f"The item: {nameItem} with a price excluding tax of {priceExclTax} €, with a quantity of {quantity} and a VAT rate of {vatRate}%. The total price including tax is {(priceExclTax * quantity) + vatAmount} €."
 )
