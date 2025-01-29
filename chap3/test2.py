@@ -8,7 +8,4 @@ __version__ = "1.0"
 number = int(input("Entrer un nombre entier : "))
 
 # check if number is positive or negative
-if number >= 0 :
-    print(f"le nombre est positif : {number}")
-else:
-    print(f"le nombre est negatif : {number}")
+print(f"est ce que le nombre ({number}) est positif ? {number >= 0}")
