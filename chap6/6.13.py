@@ -1,5 +1,7 @@
+"""
 __author__ = "Mertens Adrien"
-__version__ = "1.0"
+__version__ = "1.0
+"""
 
 # Function to calculate the factorial of a number
 def factorielle(n):
