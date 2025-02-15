@@ -6,6 +6,9 @@ members = [
     "chap1",
     "chap2",
     "chap3",
+    "chap4",
+    "chap5",
+    "chap6",
     "courspython",
 ]
 
@@ -35,9 +38,30 @@ version = "0.1.0"
 source = { virtual = "chap3" }
 
 [[package]]
+name = "chap4"
+version = "0.1.0"
+source = { virtual = "chap4" }
+
+[[package]]
+name = "chap5"
+version = "0.1.0"
+source = { virtual = "chap5" }
+
+[[package]]
+name = "chap6"
+version = "0.1.0"
+source = { virtual = "chap6" }
+
+[[package]]
 name = "courspython"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "ruff", specifier = ">=0.9.2" }]
 
 [[package]]
 name = "ruff"
