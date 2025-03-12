@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ruff>=0.9.2",
+]
 
 [tool.uv.workspace]
 members = ["chap2", "chap1", "chap3", "chap4", "chap6", "chap5", "chap10", "chap7"]
