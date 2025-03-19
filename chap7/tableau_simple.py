@@ -42,7 +42,7 @@ def tableau_positif_et_négatifs():
     for i in range(0,long_tableau):
         answer = int(input(f"Veuillez entré la valeur positif ou négatif du {i+1}:"))
         tab[i] = answer
-        if answer > 0:
+        if answer >= 0:
             nbr_posi += 1
         else:
             nbr_nega += 1
@@ -55,6 +55,7 @@ def somme_tableau() -> int:
     for i in range(len(tab)):
         som += tab[i]
     return som
+
 
 
 
