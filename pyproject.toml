@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.workspace]
-members = ["chap2", "chap1", "chap3", "chap4", "chap6", "chap5", "chap10", "chap7"]
+members = ["chap2", "chap1", "chap3", "chap4", "chap6", "chap5", "chap10", "chap7", "chap8"]
