@@ -58,13 +58,15 @@ while total_price != 0:
         total_price %= 1  # Update the remaining total price
 
 # Print the result
-print(f"La somme totale est : {total_price} \nEt la monnaie est la suivante :"
-      f"\nPièces de 1€: {money_1}"
-      f"\nPièces de 2€: {money_2}"
-      f"\nBillets de 5€: {money_5}"
-      f"\nBillets de 10€: {money_10}"
-      f"\nBillets de 20€: {money_20}"
-      f"\nBillets de 50€: {money_50}"
-      f"\nBillets de 100€: {money_100}"
-      f"\nBillets de 200€: {money_200}"
-      f"\nBillets de 500€: {money_500}")
+print(
+    f"La somme totale est : {total_price} \nEt la monnaie est la suivante :"
+    f"\nPièces de 1€: {money_1}"
+    f"\nPièces de 2€: {money_2}"
+    f"\nBillets de 5€: {money_5}"
+    f"\nBillets de 10€: {money_10}"
+    f"\nBillets de 20€: {money_20}"
+    f"\nBillets de 50€: {money_50}"
+    f"\nBillets de 100€: {money_100}"
+    f"\nBillets de 200€: {money_200}"
+    f"\nBillets de 500€: {money_500}"
+)

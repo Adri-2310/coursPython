@@ -1,4 +1,3 @@
-
 def positifOrNegatif():
     """
      Écrivez un algorithme qui demande un nombre à l’utilisateur, puis qui l’informe si ce

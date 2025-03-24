@@ -1,14 +1,18 @@
 version = 1
+revision = 1
 requires-python = ">=3.13"
 
 [manifest]
 members = [
     "chap1",
+    "chap10",
     "chap2",
     "chap3",
     "chap4",
     "chap5",
     "chap6",
+    "chap7",
+    "chap8",
     "courspython",
 ]
 
@@ -16,6 +20,11 @@ members = [
 name = "chap1"
 version = "0.1.0"
 source = { virtual = "chap1" }
+
+[[package]]
+name = "chap10"
+version = "0.1.0"
+source = { virtual = "chap10" }
 
 [[package]]
 name = "chap2"
@@ -51,6 +60,16 @@ source = { virtual = "chap5" }
 name = "chap6"
 version = "0.1.0"
 source = { virtual = "chap6" }
+
+[[package]]
+name = "chap7"
+version = "0.1.0"
+source = { virtual = "chap7" }
+
+[[package]]
+name = "chap8"
+version = "0.1.0"
+source = { virtual = "chap8" }
 
 [[package]]
 name = "courspython"
