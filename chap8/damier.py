@@ -18,7 +18,7 @@ def display_board(board) -> None:
     for row in reversed(board):
         print(row)
 
-def select_move_position(board, old_x: int, old_y: int) -> tuple:
+def select_move_position(old_x: int, old_y: int) -> tuple:
     # Prompt the user to select a move direction
     response = 0
     while response not in (7, 9, 1, 3):
@@ -62,7 +62,7 @@ def checkerboard() -> None:
 
     # Prompt for the move direction
     while game_over:
-        position_x, position_y = select_move_position(board, position_x, position_y)
+        position_x, position_y = select_move_position(position_x, position_y)
         delete_pawn_position(board)
         if 0 <= position_x < 8 and 0 <= position_y < 8:
             update_pawn_position(board, position_x, position_y)
