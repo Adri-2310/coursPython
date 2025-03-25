@@ -59,11 +59,8 @@ def checkerboard() -> None:
 
     # Prompt for the starting position and check if it is valid
     while not (0 <= position_x < 8 and 0 <= position_y < 8):
-        try:
-            position_x = int(input("Sur quelle case voulez-vous être (1-8) ? ")) - 1
-            position_y = int(input("Sur quelle ligne voulez-vous être (1-8) ? ")) - 1
-        except ValueError:
-            print("Veuillez entrer des valeurs numériques valides.")
+        position_x = int(input("Sur quelle case voulez-vous être (1-8) ? ")) - 1
+        position_y = int(input("Sur quelle ligne voulez-vous être (1-8) ? ")) - 1
 
     # Initialize the board with the starting position
     update_pawn_position(board, position_x, position_y)
